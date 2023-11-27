@@ -1,0 +1,286 @@
+/* All desktop. */
+
+@media (min-width: 768px) and (max-width: 1500px) {
+    h1 {
+        font-size: 45px;
+    }
+    h2 {
+        font-size: 38px;
+    }
+    h3 {
+        font-size: 30px;
+    }
+    h4 {
+        font-size: 25px;
+    }
+    h5 {
+        font-size: 20px;
+    }
+    h6 {
+        font-size: 14px;
+    }
+    body {
+        font-size: 14px;
+    }
+    #scrollUp {
+        font-size: 1.2em;
+    }
+}
+
+
+/* Normal desktop :1200px. */
+
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .container {
+        max-width: 1080px;
+    }
+}
+
+
+/* Normal desktop :992px. */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+
+/* Tablet desktop :768px. */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .container {
+        max-width: 750px;
+    }
+    body {
+        font-size: 14px;
+    }
+}
+
+
+/* Small mobile :320px. */
+
+@media (max-width: 767px) {
+    .mb-100 {
+        margin-bottom: 65px;
+    }
+    .mb-50 {
+        margin-bottom: 40px;
+    }
+    h1 {
+        font-size: 32px;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    h3 {
+        font-size: 22px;
+    }
+    h4 {
+        font-size: 20px;
+    }
+    h5 {
+        font-size: 16px;
+    }
+    h6 {
+        font-size: 12px;
+    }
+    body {
+        font-size: 14px;
+    }
+    #scrollUp {
+        font-size: 1.5em;
+        right: 34px;
+    }
+    .saveTimeMoney_content i span {
+        font-size: 100px;
+    }
+    .col-md-4 {
+        width: 50%;
+    }
+    .advantage_blk h4 {
+        font-size: 20px;
+        width: 100%;
+        border-radius: 0;
+        bottom: 0 !important;
+        top: auto;
+    }
+    .col-md-6 {
+        width: 100%;
+    }
+    .advantage_blk {
+        border-radius: 20px;
+        overflow: hidden;
+        max-width: 340px;
+        height: 300px;
+        margin: 0 auto 10px;
+    }
+    .carsifi-section h2 {
+        line-height: 1.6;
+        margin-top: 30px;
+    }
+    .sec-img span {
+        font-size: 36px;
+        height: 70px;
+        font-weight: 700;
+    }
+    p {
+        font-size: 16px;
+        line-height: 1.7;
+    }
+    .carsifi_content h4 {
+        font-size: 20px;
+    }
+    .carsifi_blk p {
+        font-size: 18px;
+    }
+    .carsifi_blk {
+        height: auto;
+        padding-bottom: 20px;
+        max-width: 300px;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+    .section_btm i {
+        display: none;
+    }
+    .section_btm {
+        justify-content: center;
+        text-align: center;
+    }
+    .section_btm p {
+        line-height: 1.6;
+    }
+    .sec_title h2 {
+        margin-bottom: 20px;
+        line-height: 1.6;
+    }
+    .count-blk h1 {
+        font-size: 20px;
+    }
+    .count-blk p {
+        margin-bottom: 0;
+    }
+    .plugin_remot h1 {
+        font-size: 36px;
+    }
+    .plugin_remot i img {
+        max-width: 200px;
+    }
+    section.wireles .col-md-4 {
+        width: 100%;
+    }
+    .wireles_blk {
+        max-width: 300px;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+    .AllbrandLogo button {
+        font-size: 20px;
+        padding: 15px 30px;
+        border-radius: 10px;
+    }
+    .AllbrandLogo li {
+        margin-right: 10px;
+    }
+    .AllbrandLogo ul {
+        justify-content: space-evenly;
+    }
+    .operation_blk {
+        margin-top: 70px;
+        max-width: 300px;
+        margin: 0 auto 0;
+    }
+    .operation_blk.opb-1 {
+        margin-bottom: 60px;
+    }
+    .col-md-5 {
+        width: 100%;
+    }
+    .col-md-5 .features_blk {
+        max-width: 300px;
+    }
+    .features_blk_logo {
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin: 10px 0 20px;
+    }
+    .col-md-2 {
+        width: 100%;
+    }
+    .features_blk h3 {
+        font-size: 20px;
+    }
+    .features_blk {
+        max-width: 300px;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+    .feature_btm_text {
+        font-size: 16px;
+        line-height: 1.7;
+    }
+    .spf_blk {
+        margin-bottom: 20px;
+        max-width: 350px;
+        margin: 0 auto 20px;
+    }
+    section.Team-area .col-md-4 {
+        width: 100%;
+        max-width: 300px;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+    .spf_list ul li {
+        flex-wrap: wrap;
+        padding-left: 20px;
+    }
+    .spf_list ul li h4 {
+        flex: 0 0 100%;
+        padding-left: 0;
+        font-size: 18px;
+    }
+    #Shipping_list ul li h4 {
+        width: 30%;
+    }
+    #Shipping_list ul li p {
+        width: 70%;
+    }
+    .spf_list ul li p {
+        font-size: 14px;
+    }
+    .teamMembar h3 {
+        font-size: 20px;
+        line-height: 1.7;
+    }
+    .teamMembar p {
+        line-height: 1.5;
+    }
+    .row.step_row {
+        flex-direction: column-reverse;
+    }
+    .step_cont h2 {
+        margin-bottom: 0px;
+        font-size: 24px;
+        line-height: 1.7;
+    }
+    .step_cont {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .row.step_row_rev .step_cont {
+        padding-left: 0;
+        margin-top: -10px;
+    }
+    .step-img {
+        text-align: center;
+    }
+    .sec_title {
+        padding: 0 20px;
+    }
+}
+
+
+/* Large Mobile :480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
